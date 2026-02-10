@@ -38,7 +38,7 @@ Add a paragraph containing:
 LatestUpdates
 
 On the next non-empty line, write the value you want synced to Airtable field `LatestUpdates`.
-I highly recommend creating a two cell collumn for this purpose. If you break the title within the document, it will not recognize the input field. Also it is unlikely to recognize Google's built in people or placeholder chips. These should be noted in instructions, if you're sharing a templatized version of the Google Doc for multiple users.
+I highly recommend creating a two cell column for this purpose. If you break the title within the document, it will not recognize the input field. Also it is unlikely to recognize Google's built in people or placeholder chips. These should be noted in instructions, if you're sharing a templatized version of the Google Doc for multiple users.
 
 ### 2) Key-value table
 
