@@ -2,6 +2,25 @@
 Google Docs → Airtable Sync (Apps Script)
 A small Google Apps Script setup that syncs structured fields from a Google Doc into Airtable.
 
+## Why this exists
+
+Teams often manage projects in Google Docs while tracking status and visibility in Airtable.
+
+In practice, this breaks down because:
+- project context lives in free-form documents
+- status systems require structured fields
+- manual updates drift or get skipped
+- existing integrations either flatten context or require heavy configuration
+
+This pattern treats the Google Doc as the source of truth
+and uses a lightweight contract to sync only the fields that matter.
+
+The result is:
+- minimal per-document setup
+- predictable updates
+- clear ownership
+- no manual data entry loops
+
 ## What it syncs
 
 - `DocId` (Google Doc ID)
